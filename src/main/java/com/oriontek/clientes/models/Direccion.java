@@ -19,9 +19,7 @@ public class Direccion {
     private Long id;
     @Column(name = "direccion")
     private String direccion;
-    @Column(name = "cliente_id")
-    private String client_id;
-    @Column(name = "fecha_inicio")
+   @Column(name = "fecha_inicio")
     private Date fecha_inicio;
     @Column(name = "fecha_fin")
     private Date fecha_fin;
